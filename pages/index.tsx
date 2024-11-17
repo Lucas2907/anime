@@ -8,8 +8,7 @@ const Index = () => {
 
         <>
 
-            <h1 className={style.title}>Site aqui</h1>
-
+            <h1 className={style.title}></h1>
         </> 
 
        
