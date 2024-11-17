@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <StyledFooter> {/* utilizando footer que eu importei */}
                 <Typography
-                    variant="body1" // variação de leta (pequena)
+                    variant="body1" // variação de letra (pequena)
                     sx={{
                         fontFamily: 'Inter'
                     }}
