@@ -1,14 +1,18 @@
-
+import style from './Index.module.css'
 
 const Index = () => {
 
+
+
     return (
+
         <>
 
-            <h1 style={{color: 'white'}}>Site aqui</h1>
+            <h1 className={style.title}>Site aqui</h1>
 
-        </>
+        </> 
 
+       
     )
 }
 
