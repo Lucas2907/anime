@@ -1,0 +1,48 @@
+.lista {
+    color: #bfbfbf;
+    display: flex;
+    padding: 30px 0;
+    gap: 30px;
+    overflow: auto;
+    width: 100%;
+  }
+  
+  .lista__itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06090f;
+    padding: 6px 25px;
+    border: 1px solid #151b26;
+    border-radius: 37px;
+    font-size: 15px;
+    min-width: 108px;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .lista__itens:hover {
+    background-color: #151b26;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Estilizando a barra de rolagem */
+  .lista::-webkit-scrollbar {
+    width: 20%; /* Barra de rolagem vertical */
+    height: 10px; /* Barra de rolagem horizontal */
+  }
+  
+  /* Diminuindo a largura da barra de rolagem horizontal */
+  .lista::-webkit-scrollbar-horizontal {
+    width: 7px; /* Diminuindo a largura da barra de rolagem horizontal para 7px */
+  }
+  
+  .lista::-webkit-scrollbar-thumb {
+    background-color: #00A3FF; /* Cor do "polegar" da barra */
+    border-radius: 10px;
+  }
+  
+  .lista::-webkit-scrollbar-track {
+    display: none; /* Ocultando o trilho da barra de rolagem */
+  }
+  

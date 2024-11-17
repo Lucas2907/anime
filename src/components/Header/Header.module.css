@@ -1,48 +1,49 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 0 0;
 }
 
 .header__logo {
-    display: flex;
-    align-items: center;
-    color: #00A3FF;
-    font-weight: 500;
-    font-size: 40px;
-    max-height: 47px;
-    margin: 0;
-    font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #00a3ff;
+  font-weight: 500;
+  font-size: 40px;
+  max-height: 47px;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
 }
 
 .header__lista {
-    color: white;
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    gap: 50px;
-    margin: 0;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 50px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .header__input {
-    background-color: #151B26;
-    border: 0;
-    padding: 8px 0 8px 24px;
-    border-radius: 37px;
-    width: 292px;
-    min-height: 48px;
+  background-color: #151b26;
+  border: 0;
+  padding: 8px 0 8px 24px;
+  border-radius: 37px;
+  width: 292px;
+  min-height: 48px;
 }
 
 .header__input::placeholder {
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 32px;
-    word-spacing: 10px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  word-spacing: 10px;
 }
+

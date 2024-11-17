@@ -17,7 +17,7 @@ const Default = ({children}: DefaultProps) => {
             <Header />
             <Container // container do MUI, que serve apenas para centralizar os itens em um espaço na tela
                 maxWidth='lg' // tamanho do container (largo)
-                sx={{width:"80%"}}
+                sx={{width:"80%", padding:0}}
             >
                 {children}
 

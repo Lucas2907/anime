@@ -9,6 +9,7 @@ import theme from '../src/theme';
 import { AppProps } from 'next/app';
 import TemplateDefault from '../src/templates/Default'
 
+
 export default function MyApp(props: AppProps) {
     const { Component, pageProps } = props
 
