@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Avatar, Grid, Typography } from "@mui/material"
-import { AnimeCard, AnimeCardInfo, AnimeInfo, Comment, Comments, MainAnimeInfo } from "./style"
+import { AnimeCard, AnimeCardInfo, AnimeInfo, Comment, Comments, MainAnimeInfo, Related, RelatedAnime } from "./style"
 
 const Anime = () => {
 
@@ -273,6 +273,190 @@ const Anime = () => {
                     </div>
                 </Comment>
             </Comments>
+
+            <Related>
+                <Typography
+                    variant="h5"
+                    sx={{
+                        color: 'white',
+                        fontFamily: 'Rubik',
+                        mb: 4
+                    }}
+                >
+                    Relacionados
+                </Typography>
+
+                <div>
+
+                    <RelatedAnime>
+                        <div
+                            style={{
+                                borderRadius: '12px',
+                                boxShadow: 'inset 0px -50px 50px 15px rgba(0, 0, 0, 1)'
+                            }}
+                        >
+
+                            <Image 
+                                src='https://s3-alpha-sig.figma.com/img/79dc/b243/b764e207b53440b34edd7af9e93bf162?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A-0jCr0lz6RAF~HqE0esBiGef9XvcmUa-l8eqQUhxzOrpxre2ceB~tmZvqHqCkrcx5GVprIm-7gJG292gfviHQ4zB4AoFH6wcqmom909LAgP2vUTssPZ1N~glms0ExQ7diPJlmOv~nrwURK1QUk4jZlwx5jZ7zsXbqM3GwemsUNx0t4ipOpfu9l6OMVPiuVFCEO-egZCRvi8BD0NVx3vp9ZJs0AGUQxnLr6NWHps3m9f-Sf7RaJV1VxTjICW6BLchRQwW4ceXAl-1GOmekxRYp5a9eY8cOfsMZtNvaIU7alq85hRzZA04yYysuluagfMe6tpDGF0FzZzoIooJ5malg__'
+                                alt='anime'
+                                width={180}
+                                height={253}
+                                style={{
+                                    position: 'relative',
+                                    zIndex: -2,
+                                    borderRadius: '12px',
+                                    
+                                }}
+                            />
+                        </div>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                color: 'white',
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                            fontWeight={400}
+                        >
+                            Guilty Crown
+                        </Typography>
+                    </RelatedAnime>
+                    <RelatedAnime>
+                        <div
+                            style={{
+                                borderRadius: '12px',
+                                boxShadow: 'inset 0px -50px 50px 15px rgba(0, 0, 0, 1)'
+                            }}
+                        >
+
+                            <Image 
+                                src='https://s3-alpha-sig.figma.com/img/d049/a628/1b4bd89f1e8ea9d43d227a6e3ffc6601?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mckSZamc4WrPx1VynkCKGTB6jw21sPkzCoUnXj1kaJjpbjSDqqVaBqe2Xw6~Dm6wNQpcAmuJ716kKMappqmWXjpEijcGfJBX5k2akIj1VIQdcFWUDzjmikx~AwUJ-~AwM-RlXq1M6GZNvhm6s~oF-~lUjLuGss9LJ4RQFn8ZQ9zuVqwU84AUYIGH~O0Z0bHR~6bjtWN1ZwilUztx5UlXWb7HisO0ZUpW948rrqypcX~52lvhoxL6B3FQRtPkzyse~ny4yKrxx0AYu31oIPNb4gbdCwJDI1NV36W1zFGwSjb941zZKk1xobAv2i8rVNw2RoSOwJu42f5UFdy8oz9jOg__'
+                                alt='anime'
+                                width={180}
+                                height={253}
+                                style={{
+                                    position: 'relative',
+                                    zIndex: -2,
+                                    borderRadius: '12px',
+                                    
+                                }}
+                            />
+                        </div>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                color: 'white',
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                            fontWeight={400}
+                        >
+                            Guilty Crown
+                        </Typography>
+                    </RelatedAnime>
+                    <RelatedAnime>
+                        <div
+                            style={{
+                                borderRadius: '12px',
+                                boxShadow: 'inset 0px -50px 50px 15px rgba(0, 0, 0, 1)'
+                            }}
+                        >
+
+                            <Image 
+                                src='https://s3-alpha-sig.figma.com/img/ce9c/0896/7da14b163889c669c568a083c96acfd0?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AnPwZzsNU5xE4DBATjFltsCG1rITRY2LhTCTz1nvBpU5IKGbdddolZkFlUhehx~IILAk513Q66ArvWt-aFfZp~Aq485BiWCas72-~wtPkAlW1pFFxsLEoDaEfPEEYFgLocxTNQB0GCFlkDwU60S0YlY569f3W8l2qqTliCGRCUtEVZ6XHL2qoZ-Y5Pitpn2wSqi9u9cCrpFJmvFTU~Ouw34CKDC5xIcNWSQzpkhI05w~-Y3yT8YrV~bHHkD0iTP5shwwzXkmZF96l~s7otpF5ouO-J6S8kajXPbGUE7ulo2o-v~utcBL6u1IjKcXnS5cY82trMk-esNUolJ02lv~Vw__'
+                                alt='anime'
+                                width={180}
+                                height={253}
+                                style={{
+                                    position: 'relative',
+                                    zIndex: -2,
+                                    borderRadius: '12px',
+                                    
+                                }}
+                            />
+                        </div>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                color: 'white',
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                            fontWeight={400}
+                        >
+                            Guilty Crown
+                        </Typography>
+                    </RelatedAnime>
+                    <RelatedAnime>
+                        <div
+                            style={{
+                                borderRadius: '12px',
+                                boxShadow: 'inset 0px -50px 50px 15px rgba(0, 0, 0, 1)'
+                            }}
+                        >
+
+                            <Image 
+                                src='https://s3-alpha-sig.figma.com/img/27d4/d411/83aa7b0ccc199474dead568a663c6cc2?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hXDtAF9S-yh~FeU7NdOiBoN9UpmCO~8~N4ZJ9nbZQtlgp-M0jP0i6Weqqy9RHmq3BUi73k0srxJUV8IXLKgLq2QhzjQyEuWEp7iUNJNl70iAtJuk7J97AM8TzbxhhEynOm-U0Sx89JlWINYaEhSqTw5stFhsydhYoAG5ecklsgLfbl-BZRA7Ca5Y5OOmCcOeuM6rdJ-2gXpBk-16lyOOxKNdqyyc0UxAw42LPcm8jXZoLAqhmasudVhdw76--TwV15AWkbOlvFK-76-GxV8N7rqnrGYsDypqSahvTHYNmWxVFdUaYWP9nwY~pB4KVk6nzUdIFCtsUy1-WOr7j97fmw__'
+                                alt='anime'
+                                width={180}
+                                height={253}
+                                style={{
+                                    position: 'relative',
+                                    zIndex: -2,
+                                    borderRadius: '12px',
+                                    
+                                }}
+                            />
+                        </div>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                color: 'white',
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                            fontWeight={400}
+                        >
+                            Guilty Crown
+                        </Typography>
+                    </RelatedAnime>
+                    <RelatedAnime>
+                        <div
+                            style={{
+                                borderRadius: '12px',
+                                boxShadow: 'inset 0px -50px 50px 15px rgba(0, 0, 0, 1)'
+                            }}
+                        >
+
+                            <Image 
+                                src='https://s3-alpha-sig.figma.com/img/d6e4/3b5d/76efce4687e2e454c0a4a3e9e41938de?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h4WxrmfggsHU0fuaKE5Gr~LcB89i3P3ZnNnFYE6nw-TEQE4eb97nVN-zl~TXwMjVTN71VFCVE3vMPolejudM8UTTbZV5uIL5gnwHSrKpEo17El09P2PLHFBZpkPTme5c7zNJ5OBhuY7460PwtIDAGhQj2uZgJxXXSw-O5g6KmWPbX8J5ObtFQB-slu87vumzu-5UUAakkobtW94ZcSoxfkTjvGh-TUPfakay2zQbybkMCWYrNds3MovZC879TzeQhHmQQ05wWUW8HeiroewZGDDrpnwqTtFMGj6Uw8HoRGRcXZ4ZXDY1CS97b~HORv3gxIAFma4RY2eYQNj21RC7AA__'
+                                alt='anime'
+                                width={180}
+                                height={253}
+                                style={{
+                                    position: 'relative',
+                                    zIndex: -2,
+                                    borderRadius: '12px',
+                                    
+                                }}
+                            />
+                        </div>
+                        <Typography
+                            variant="h6"
+                            sx={{
+                                color: 'white',
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                            fontWeight={400}
+                        >
+                            Guilty Crown
+                        </Typography>
+                    </RelatedAnime>
+                </div>
+
+            </Related>
+
         </>
     )
 }

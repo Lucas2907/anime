@@ -25,7 +25,7 @@ export const AnimeCardInfo = styled.div`
     padding-left: 20px;
 `
 
-export const AnimeInfo = styled.div`
+export const AnimeInfo = styled.section`
     display: flex;
     margin-bottom: 50px;
 `
@@ -47,7 +47,7 @@ export const MainAnimeInfo = styled.div`
     }
 `
 
-export const Comments = styled.div`
+export const Comments = styled.section`
     margin-bottom: 50px;
 `
 
@@ -73,6 +73,17 @@ export const Comment = styled.div`
     }
 `
 
-export const Related = styled.div`
+export const Related = styled.section`
+    div {
+        display: flex;
+    }
+    margin-bottom: 50px;
+`
 
+export const RelatedAnime = styled.div`
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 15px;
+    position: relative;
 `
