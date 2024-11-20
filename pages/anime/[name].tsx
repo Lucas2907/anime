@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { Grid, Typography } from "@mui/material"
-import { AnimeCard, AnimeCardInfo, AnimeInfo, MainAnimeInfo } from "./style"
+import { Avatar, Grid, Typography } from "@mui/material"
+import { AnimeCard, AnimeCardInfo, AnimeInfo, Comment, Comments, MainAnimeInfo } from "./style"
 
 const Anime = () => {
 
@@ -216,7 +216,63 @@ const Anime = () => {
                     </MainAnimeInfo>
                 </section>
             </AnimeInfo>
+            
+            <Comments>
+                <Typography
+                    variant="h5"
+                    sx={{
+                        color: 'white',
+                        fontFamily: 'Rubik',
+                        mb: 4
+                    }}
+                >
+                    Comentários
+                </Typography>
 
+                <Comment>
+                    <Avatar 
+                        src="https://s3-alpha-sig.figma.com/img/4d88/b944/825900b8d68b9061955592f3633a9183?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kUYIetcWt~wRvmVxptNXMSSA1XQcZOPtjgPoG3EJvJ-0GrgWE1qETp7GkG~n9Yr8Gw5T6yTNWmac6EicZNGIF7NmXVw3oEQik8p7Q0F7wMs9DEVtZLefD4ZCeSyp8PuSjfkpdzQuniLpNBcYhrDiA92ac4ZUkqOXy8wzCnM9c-mSB3xJ1nx9f4PeqxKIPDQLWAopCiO7PprB4JI3biN8EgcthSU1raHSe3aFSxmnhhGfEt86zb~XBfPmH3gNsWeBnzaPtN9flrliPNOJyGxapftzeKFIq2gTHjASGWUVyS0Xi0vIepjToORG4yioIfLZsA-lrViBbYmekQU8XrxYCw__"
+                        sx={{ width: '70px', height: '70px', mr: 4 }}    
+                    >
+                    </Avatar>
+
+                    <div>
+
+                        <Typography
+                            component='h3'
+                        >
+                            Bruno San
+                        </Typography>
+                        <Typography
+                            component='p'
+                        >
+                            Primeira vez assistindo e já estou adorando :)
+                        </Typography>
+                    </div>
+                </Comment>
+
+                <Comment>
+                    <Avatar 
+                        src="https://s3-alpha-sig.figma.com/img/1d9a/53b7/7ee693b456f0ea6abb0f28d0c256e9f1?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dYcL6eSV1evc9pBDIxsAGwHsQqslApJh22Rtu-nI6M0zQZDl36XMaRmCY30LkcD1ROJ3md3gQNTzljDN9-YuA74lLcbHOtf0rHqDqX4JoshuTSlv22gb2fMcSq7tpqH-Jai9lNwO03~rqOGfH7g8izySNHc6IDVf5spBjFSKUlvsd2R0N0ZgR9UaR5OZLo8xV8iVOn3iBNOxk~UNCvDRFoqJsJmmQMijJ4r9uiLbmmOMVIUtXR0~5bzjojnzchrOBFNdJbmRBoHKh1OoJv3YnCkfyYZMHUYAh7lstwx2tz6KHJQFMlPX6Y1riQFRxGSNAVoEcZYSTl3noe4x5RG-xQ__"
+                        sx={{ width: '70px', height: '70px', mr: 4 }}    
+                    >
+                    </Avatar>
+
+                    <div>
+
+                        <Typography
+                            component='h3'
+                        >
+                            Júlia
+                        </Typography>
+                        <Typography
+                            component='p'
+                        >
+                            Episódio muito top, já voltou muito bom!
+                        </Typography>
+                    </div>
+                </Comment>
+            </Comments>
         </>
     )
 }

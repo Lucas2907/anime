@@ -27,7 +27,7 @@ export const AnimeCardInfo = styled.div`
 
 export const AnimeInfo = styled.div`
     display: flex;
-
+    margin-bottom: 50px;
 `
 
 export const MainAnimeInfo = styled.div`
@@ -48,7 +48,29 @@ export const MainAnimeInfo = styled.div`
 `
 
 export const Comments = styled.div`
+    margin-bottom: 50px;
+`
 
+export const Comment = styled.div`
+    border-bottom: 1px solid #151B26;
+    padding-bottom: 30px;
+    display: flex;
+    margin-bottom: 30px;
+    h3 {
+        color: white;
+
+    }
+
+    p {
+        color: #BFBFBF;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 `
 
 export const Related = styled.div`
