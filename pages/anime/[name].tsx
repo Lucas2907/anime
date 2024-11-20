@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Grid, Typography } from "@mui/material"
-import { AnimeCard, AnimeCardInfo } from "./style"
+import { AnimeCard, AnimeCardInfo, AnimeInfo, MainAnimeInfo } from "./style"
 
 const Anime = () => {
 
@@ -14,11 +14,11 @@ const Anime = () => {
             }}>
             </div> 
 
-            <Grid container >
+            <Grid container sx={{marginBottom: 10}}>
                 <Grid item md={9} sx={{
                     
                     
-                    padding: '5px'
+                    
                 }}>
 
                     <Typography
@@ -45,17 +45,17 @@ const Anime = () => {
                 <Grid item md={3} sx={{
                     
                     
-                    padding: '11px'
+                    padding: '10px'
                 }}>
                     <Typography
-                        gutterBottom
+                        
                         sx={{
                             fontFamily: 'Rubik',
                             fontSize: '18px'
                         }}
                         color="#BFBFBF"
                         fontWeight={400}
-                        marginBottom={2}
+                        
                     >
                         Mais assistidos            
                     </Typography>
@@ -150,9 +150,72 @@ const Anime = () => {
                         </AnimeCardInfo>
                     </AnimeCard>
                 </Grid>
-
             </Grid>
+            
+            <AnimeInfo>
+                <Image 
+                    alt="anime-photo"
+                    style={{borderRadius: '12px'}}
+                    width={280}
+                    height={320}
+                    src='https://s3-alpha-sig.figma.com/img/eca2/2973/337765e79e77e2473163fde7ea85f731?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvtAl17DvUSPptErI85wqqY-gSTatm2BtDCkuW4jBX4pCkOMfyuOMLxEJEx-cSVu71nR-EEGwsXedRZaVpaNTAKYR0jtihJ7PxYBfgtmvCwREVaYbhChRq7RPRIKGz1h4vA2ialZL6VS-W08shCxgP1H-ylqlbnt~uY9ev99dynaQGlEdsfEBs1YFB~4FvNJ5OxczgDOaN4ZoQknHS3TYp0wdtrWbTGu4-oMQ0X1~b7dtMerL6bGtErDel8912xcwRXMvI1t~Th8xOumFd13iHI1RFCNbSc7oF-Vb5Ew52ZKaUEZD0u1NpH-zgPk8bs1XMi~iodH254MmATC7Is0rA__'
+                />
+                <section style={{marginLeft: '40px'}}>
 
+                    <MainAnimeInfo>
+                        <Typography
+                            sx={{
+                                fontFamily: 'Rubik',
+                                
+                            }}
+                        >
+                            Duração: <span>24 Min.</span>
+                        </Typography>
+                    </MainAnimeInfo>
+                    <MainAnimeInfo>
+                        <Typography
+                            sx={{
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                        >
+                            Estúdio: <span>Trigger</span>
+                        </Typography>
+                    </MainAnimeInfo>
+                    <MainAnimeInfo>
+                        <Typography
+                            sx={{
+                                fontFamily: 'Rubik',
+                                mt: 1
+                            }}
+                        >
+                            Duração: <span>Drama, Ficção científica, Romance</span>
+                        </Typography>
+                    </MainAnimeInfo>
+                    <MainAnimeInfo>
+                        <Typography
+                            sx={{
+                                fontFamily: 'Rubik',
+                                mt: 5,
+                                mb: 2
+                            }}
+                        >
+                            Sinopse: 
+                        </Typography>
+                    </MainAnimeInfo>
+                    <MainAnimeInfo>
+                        <Typography
+                            component='span'
+                            sx={{
+                                display: 'block',
+                                textAlign: 'left'
+                            }}
+                        >
+                            Darling in the Franxx se passa em um futuro distópico e pós-apocalíptico onde os remanescentes da civilização humana abandonaram a superfície do planeta. Adultos e crianças existem em ambientes contrastantes entre si. Os adultos vivem em cidades tecnológicas (latifúndios) chamados de "plantações" (plantations). As crianças são chamadas de "parasitas", sendo elas destituídos de individualidade, e educadas apenas para pilotarem Franxxs em pares (um menino e uma menina) para defender a humanidade. 
+                        </Typography>
+                    </MainAnimeInfo>
+                </section>
+            </AnimeInfo>
 
         </>
     )

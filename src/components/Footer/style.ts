@@ -8,8 +8,6 @@ export const StyledFooter = styled.footer`
     align-items: center;
     justify-content: center;
     padding: 20px;
-    position: absolute;
-    bottom: 0;
     color: #BFBFBF;
     background-color: transparent;
 `

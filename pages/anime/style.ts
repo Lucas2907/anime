@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const AnimeCard = styled.div`
     display: flex;
     background-color: #151B26;
-    margin-top: 15px;
+    margin-top: 14.5px;
     width: 100%;
 
     p {
@@ -26,8 +26,25 @@ export const AnimeCardInfo = styled.div`
 `
 
 export const AnimeInfo = styled.div`
+    display: flex;
 
+`
 
+export const MainAnimeInfo = styled.div`
+    
+    color: white;
+
+    
+    span {
+        color: #BFBFBF;
+        font-family: 'Inter';
+        margin-left: 20px;
+        
+    }
+
+    span:last-of-type {
+        margin-left: 0;
+    }
 `
 
 export const Comments = styled.div`
