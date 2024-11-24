@@ -1,0 +1,52 @@
+.novidades {
+  color: #fff;
+}
+
+.novidades__header {
+  margin: 64px 0 40px;
+}
+
+.novidades__header__title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.novidades__header__text {
+  color: #bfbfbf;
+  margin: 0;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.novidades__main {
+  width: 100%;
+  min-height: 350px;
+  padding: 180px 0 32px 32px;
+  background: linear-gradient(
+      270deg,
+      rgba(6, 9, 15, 0.32) 0%,
+      rgba(6, 9, 15, 0.9) 100%
+    ),
+    url("../../../../public/images/one-punch-man.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.novidades__main__title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 64px;
+  margin: 0 0 8px;
+}
+
+.novidades__main__text {
+  max-width: 571px;
+  color: #bfbfbf;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28.8px;
+}
